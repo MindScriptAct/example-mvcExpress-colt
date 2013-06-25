@@ -1,12 +1,19 @@
 package mindscriptact.coltExpress.controller.setUp {
-import org.mvcexpress.mvc.Command;
+import mindscriptact.coltExpress.model.test.TestProxy;
+import org.mvcexpress.mvc.PooledCommand;
 
-public class SetupModelCommand extends Command {
+[Live]
+public class SetupModelCommand extends PooledCommand {
 
 	public function execute(blank:Object):void {
-
+		proxyMap.map(new TestProxy());
 	}
 
+	[LiveCodeUpdateListener]
+	private function debug_liveUpdate():void {
+		trace("SetupModelCommand>.liveUpdate()");
+
+	}
 
 }
 }
