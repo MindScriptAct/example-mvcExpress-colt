@@ -1,0 +1,21 @@
+#Sat Jun 22 22:13:01 CEST 2013
+libraryPaths=${project}\\libs\\mvcExpress-debug_v1_3_1.swc;${project}\\libs\\mvcExpress_v1_3_1-logger_v1_0.swc;
+flashPlayerLauncher=false
+useDefaultSDKConfiguration=true
+compilerOptions=-define\=CONFIG\:\:debug,true -keep-as3-metadata+\=Inject  -default-size 800 600
+flexSDKPath=C\:\\flex_sdk_4.9.1
+mainClass=${project}\\src\\mindscriptact\\coltExpress\\Main.as
+excludeUnusedCode=false
+flashPlayerPath=C\:\\Users\\rbanevicius\\Dropbox\\player\\11.7\\flashplayer_11_sa_debug.exe
+outputFileName=mainColt.swf
+sourcePaths=${project}\\src;
+compilationTimeoutValue=30
+outputPath=${project}\\bin
+targetPlayerVersion=11.4.0
+makeGettersSettersLive=true
+liveMethods=annotated
+disconnectOnTimeout=true
+maxLoopIterations=10000
+clearMessages=true
+target=SWF
+name=coltTest
